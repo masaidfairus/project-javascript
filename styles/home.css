@@ -94,4 +94,24 @@
     color: #121212; 
   }
   
-  
+  @media screen and (max-width: 425px) {
+    
+    html {
+      font-size: 50%;
+    }
+    
+    .project-container {
+      max-width: 400px;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    
+    html {
+      font-size: 45%;
+    }
+    
+    .project-container {
+      max-width: 300px;
+    }
+  }
