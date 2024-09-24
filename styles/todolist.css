@@ -112,3 +112,19 @@ ul li span {
 ul li span:hover {
     background: #2c2c2c;
 }
+
+.btn-back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    width: 100%;
+    max-width: 540px;
+    height: 4rem;
+    margin: 20px auto;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: #242424;
+    color: #fff;
+}

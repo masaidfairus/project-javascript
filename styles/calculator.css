@@ -1,8 +1,14 @@
+*{
+    font-family: 'Plus Jakarta Sans', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Plus Jakarta Sans', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #121212;
     color: #e0e0e0;
     display: flex;
+    flex-direction: column;
+    gap: 4rem;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -122,3 +128,18 @@ button:hover {
     color: #fff;
 }
 
+.btn-back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    width: 310px;
+    height: 4rem;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: #242424;
+    color: #fff;
+
+    animation: slideUP 0.5s ease-in-out;
+}
